@@ -1,21 +1,34 @@
 /* start of first quarter of page */
 
+html {
+    width: 100%;
+    min-width: 80%;
+}
+
 .topquarter {
-    background-color: black;
+    background-color: #1F2937;
     color: white;
-    display: inline-block;
+
     padding: 50px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header {
-    background-color: black;
+    background-color: #1F2937;
     color: white;
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+    
 }
+
+
 
 
 
@@ -32,13 +45,126 @@ li {
     display: inline;
 }
 
+.image {
+    flex-basis: 100%;
+    background-color: grey;
+}
 
-.topquarter img {
+.image img{
+    padding: 80px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.topquarter span {
+    background-color: #3882F6;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+}
+
+
+/* end of first quarter */
+
+/* beginning of second quarter */
+
+
+.secondquarter {
+    text-align: center;
+    min-height: 15em;
+    padding-top: 1em;
+    padding-top: 50px;
+}
+
+.content {
+    display: inline-block;
+}
+
+.imagerow {
+    display: inline-block;
+}
+
+.imagerow img {
+    max-height: 5em;
+    max-width: 5em;
+}
+
+.imagerowcontainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/** end of second quarter **/
+
+/** beginning of third quarter **/
+
+.thirdquarter {
+    background-color: lightgrey;
+    padding: 100px;
+}
+
+.thirdquarter .quotecredit {
+    margin-top: -10px;
     float: right;
-    height: 200px;
-    width: 200px;
+    font-display: bold;
+}
+
+
+/** end of third quarter **/
+
+/** beginning of fourth quarter **/
+
+.fourthquarter {
+    background-color: white;
+}
+
+.signupbox{
+    background-color: #3882F6;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    margin: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 
 
+.signupbutton{
+    display: inline-block;
+    padding-left: 1em;
+    white-space: pre;
+    
+}
 
+.signupbutton div{
+    border: 1px solid white;
+    background-color: #3882F6;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+}
+
+
+
+/** footer **/
+
+footer {
+    background-color:#1F2937;
+    text-align: center;
+    min-height: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
