@@ -3,6 +3,7 @@
 html {
     width: 100%;
     min-width: 80%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
 .topquarter {
@@ -25,11 +26,23 @@ html {
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    
+   position: sticky;
+   top: 0;
 }
 
+#header a {
+    text-decoration: none;
+    color: white;
+}
 
+#header li:hover {
+    background-color:#27364b;
+    padding: 2px;
+}
 
+.topquarter span:hover{
+    background-color:#2064d1;
+}
 
 
 ul {
@@ -45,13 +58,10 @@ li {
     display: inline;
 }
 
-.image {
-    flex-basis: 100%;
-    background-color: grey;
-}
 
 .image img{
-    padding: 80px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .content {
@@ -63,8 +73,9 @@ li {
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 25px;
+    border-radius: 5px;
 }
+
 
 
 /* end of first quarter */
@@ -88,13 +99,15 @@ li {
 }
 
 .imagerow img {
-    max-height: 5em;
-    max-width: 5em;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .imagerowcontainer {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 /** end of second quarter **/
@@ -119,6 +132,9 @@ li {
 
 .fourthquarter {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signupbox{
@@ -131,13 +147,15 @@ li {
     margin-left: 5em;
     margin-right: 5em;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+   
+    max-width: 700px;
  
 }
 
-
+.signupbutton div:hover {
+    background-color: white;
+    color:#3882F6;
+}
 
 .signupbutton{
     display: inline-block;
@@ -152,7 +170,7 @@ li {
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 
