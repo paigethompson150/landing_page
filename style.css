@@ -6,16 +6,26 @@ html {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
+body {
+    background-image: url("https://images.unsplash.com/photo-1589645733841-b54da1b6ef06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .topquarter {
     background-color: #1F2937;
-    color: white;
-
+    color: white; 
+    margin: auto;
     padding: 50px;
-    margin-top: -40px;
+    padding-top: 10px;
+    margin-top: 40px;
     margin-bottom: -40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 800px;
 }
 
 #header {
@@ -107,7 +117,9 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
     gap: 20px;
+    max-width: 900px;
 }
 
 /** end of second quarter **/
@@ -117,6 +129,9 @@ li {
 .thirdquarter {
     background-color: lightgrey;
     padding: 100px;
+    max-width: 700px;
+    margin: auto;
+    
 }
 
 .thirdquarter .quotecredit {
@@ -135,6 +150,10 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .signupbox{
@@ -147,7 +166,6 @@ li {
     margin-left: 5em;
     margin-right: 5em;
     display: flex;
-   
     max-width: 700px;
  
 }
